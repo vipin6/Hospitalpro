@@ -1,0 +1,19 @@
+<%- include("header") -%>
+
+<!-- create a form having 2 input box and a submit  start now | -->
+<form action="/reviews" method="POST" class="revi">
+    <h1>Feed Back</h1>
+    <h5>Your feedback is very important for us.</h5>
+  <div class="form-group">
+    <input class="form-control" type="text text-center" placeholder="Name" name="reviname"/>
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" type="text" placeholder="Review" name="review" ></textarea>
+  </div>
+  <div class="form-group">
+    <input type="number" min="1" max="5" class="form-control" placeholder="give a rating in between 1-5" name="userRating">
+  </div>
+  <button class="btn" type="submit">Submit</button>
+</form>
+
+<%- include("footer") -%>

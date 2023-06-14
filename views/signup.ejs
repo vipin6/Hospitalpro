@@ -1,0 +1,28 @@
+<%- include("header") -%>
+
+  <!--Sign-->
+  <div class="sign">
+    <form class="sign-form" action="/signup" method="POST">
+      <div class="onesign">
+        <input type="text" placeholder="Enter Your Email" class="form-control" name="username">
+      </div>
+      <div class="onesign">  
+        <input type="password" placeholder="Enter YourPassword" class="form-control" name="password">
+      </div>   
+      <div class="onesign">
+        <p>Already have an account? <a href="signin.html">Sign In</a></p>
+      </div>
+      <button type="submit" class="btn btn-block">Signup</button>
+      <div>
+        <a class="btn btn-block" href="/auth/google" role="button">
+          <i class="fab fa-google"></i>
+          Sign Up with Google
+        </a>
+      </div>
+    </form>
+  </div>   
+
+
+  <%- include("footer") -%>
+</body>
+</html>

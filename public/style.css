@@ -1,0 +1,679 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*.row{
+    margin: 0;
+}
+
+/*top*/
+.top{
+    padding: 10px;
+    height: 50px;
+}
+.top .firstcol{
+    text-align: center;
+    font-weight: 20px;
+}
+.top .secondcol{
+    text-align: center;
+    font-weight: 30px;
+}
+.top i{
+    margin-right: 3px;
+}
+
+/*bar*/
+nav{
+    background-color: #364f6b;
+  padding: 0.5% 11.5%;
+  transition: 0.5s;
+  position: absolute !important;
+  top:160px;
+  left:75px;
+  z-index: 10000;
+  border-radius: 14px;
+  /* margin: 0 85px; */
+  width: 90%;
+  margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.9s;
+}
+nav.sticky{
+    background-color: #364f6b;
+    /* padding: 0.5% 10%; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky !important;
+    top: 0;
+}
+
+/*Main top*/
+.maintop{
+    background-color: #00CFD1;
+    color: white;
+    padding: 20px;
+    margin: 0px 45px;
+    padding-bottom:40px ;
+    transition: 0.5s;
+    position: relative;
+}
+.maintop img{
+    width:100%;
+    margin-left: 30px;
+    text-align: right;
+}
+.maintop .main{
+    text-align: right;
+    margin-right: 0px;
+}
+.maintop i{
+    margin-right: 4px;
+}
+
+/*front*/
+.front{
+    background-color: #E1EAF3;
+    margin: 0px 45px;
+    padding: 20px;
+}
+.front .right{
+    margin-top: 120px;
+}
+.front h2{
+    font-weight: lighter;
+}
+.front h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.front span{
+    font-weight: lighter;
+}
+.front h6{
+    font-size: 20px;
+}
+.front img{
+    width:100%;
+    z-index: 0;
+}
+.front .btn{
+    background-color: #00CFD1;
+    color: #fff;
+    border: 2px solid #00CFD9;
+    margin-top:2%;   
+}
+
+/*appointment*/
+.appointment{
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    margin: 0px 45px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.appointmnet .butto{
+    width:100px;
+    margin-left: 50px;
+}
+
+/*.appointment .form-control{
+    border-radius:25px;
+    height:50px;
+}
+.appointment .apt-btn{
+    border-radius: 25px !important;
+}
+.appointment h5{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.appointment .first{
+    margin-bottom: 30px;
+}
+.appointment .second{
+    margin-bottom: 30px;
+}
+
+.vm-btn{
+    border-radius:30px;
+}*/
+
+
+
+/* About*/
+
+.about{
+    padding-top: 140px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.about h2 span{
+    color: #01DFEB;
+}
+.about h4{
+    font-size: 15px;
+    font-weight: lighter;
+   
+}
+.about .img{
+    padding-top: 20px;
+    padding-left: 10px;
+    z-index: 0;
+    width:100%;
+}
+.about .line{
+    position: relative;
+    bottom: 320px;
+    font-weight: 190px;
+    z-index: 1;
+    padding-left: 0;
+    margin-left: 0;
+}
+.about .side{
+    padding-left: 70px;
+}
+.about .side span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.about .side h4{
+    font-size: 18px;
+    font-weight: 40px;
+}
+.about .side h5{
+    padding-top: 10px;
+}
+
+/*services*/
+.services{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-right: 20px;
+    padding-left: 30px;
+    background-color: #ECEEEF;
+    padding-top: 40px;
+}
+.services h2 span{
+    color: #01DFEB;
+}
+.services .first{
+    padding: 50px;
+}
+.services img{
+    width: 20%;
+}
+.services .card{
+    background-color:#ECEEEF ;
+    border: none;
+}
+.services a{
+    color: red;
+}
+
+/*serve*/
+.serve{
+    margin: 40px;
+    padding: 40px 20px;
+    background-color: #A890D3;
+    color: #FFFFFF;
+    text-align: center;
+}
+.serv-icon{
+    font-size:30px;
+}
+/* .serve span{
+    width: 50%;
+} */
+.serve h1{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 2%;
+}
+.serve h5{
+    margin-top: 5%;
+    font-weight: 10px;
+}
+
+/*team*/
+.team{
+    margin: 40px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+.team h2 span{
+    color: #01DFEB;
+}
+.team h6{
+    text-align: right;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.team h6 span{
+    font-weight: bold;
+}
+.team .second{
+    text-align: center;
+    padding:20px;
+}
+.team .second img{
+    width:70%;
+    margin-left: 30px;
+    filter:grayscale()
+
+}
+.team img:hover{
+    filter:none;
+}
+.team .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team .card .btn{
+    height: 50px;
+    border-radius:40px;
+    color: #FB9A7A;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding:10px 30px;
+    border-color: #FB9A7A;
+}
+.team .card .btn:hover{
+    background-color: white;
+}
+
+/*choose*/
+.choose{
+    margin:40px;
+    padding:60px;
+    background-color: black;
+    color: blanchedalmond;
+}
+.choose h2 span{
+    color: #01DFEB;
+}
+.choose h3{
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 20px;
+}
+.choose h6{
+    margin: 10px;
+    font-size: 20px;
+}
+
+/*Support*/
+.support{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding: 40px;
+    text-align: center;
+    background-color: #ECEEEF;
+}
+.support h2{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.support h5{
+    margin-bottom: 35px;
+    color:black;
+}
+.support .btn{
+    background-color: #00CFD1;
+    color: #fff;
+    border: 2px solid #00CFD9;
+    margin-top:2%;   
+}
+
+/*blogs */
+.blogs{
+    margin: 40px;
+    padding: 40px;
+}
+.blogs h2 span{
+    color: #01DFEB;
+}
+.blogs h2{
+    margin-bottom:40px ;
+}
+.blogs img{
+    margin: 2%;
+    width: 96%;
+}
+.blogs .mainro{
+    padding: 20px;
+}
+.blogs .comment{
+    color: #F96332;
+}
+.blogs .comment span{
+    margin-right: 5px;
+}
+.blogs i{
+    margin-right: 9px;
+}
+
+/*footer*/
+footer{
+    background-color: #ECEEEF;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 50px;
+    padding-top: 50px;
+}
+footer .btn{
+    background-color: #00CFD1;
+    color: #fff;
+    border: 2px solid #00CFD9;
+    margin-top:2%;   
+}
+footer .btn:hover{
+    border:none;
+}
+footer .form-control{
+    margin-top: 2%;
+}
+footer i{
+    margin-right: 9px;
+}
+
+/*doctors*/
+.doctors-list{
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+.doctors{
+    margin: 0 80px;
+}
+.doctors img{
+    width:45%;
+    padding-left: 70px;
+}
+.doctors .row{
+    background-color: #ECEEEF;
+    padding: 20px 0;
+    /* margin-bottom: 5px; */
+    border-bottom: 1px solid #ccc;
+}
+
+.doctors .row .col-lg-4{
+    padding-left: 0;
+    padding-right:0;
+}
+.doctors .row:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.doctors .profile{
+    margin-top: 10px;
+}
+.doctors .profile:hover{
+    color:#00CFD1 ;
+}
+.doctors .btn{
+    background-color: #00CFD1;
+    color: white;
+    border: 2px solid #00CFD1;
+    margin-top:2%;
+    margin-top:40px;
+    margin-left: 10px;
+}
+.doctors .btn:hover{
+    font-size: 17px;
+}
+
+/*head*/
+.head{
+    margin: 50px;
+    padding-left: 20px;
+}
+.head h1{
+    font-size: 70px;
+}
+
+/*departments*/
+
+/*depart*/
+.depart{
+    margin: 50px;
+}
+.depart .card-header{
+    background-color: #00CFD1;
+    color: #fff;
+}
+.depart .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.depart .btn{
+    background-color: #00CFD1;
+    color: #fff;
+    border: 2px solid #00CFD9;
+    margin-top:2%;   
+}
+.depart .btn:hover{
+    border:1px solid #00CFD1;
+}
+
+/*Contact Us*/
+
+/*cont*/
+/*.cont{
+    margin:5px 44px;
+    color:#fff;
+    text-align: center;
+    padding:12% 15%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Hospital-HITN.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}*/
+.contform{
+    margin: 100px;
+    border: 5px solid #F7F7F7;
+    padding: 50px;
+}
+.contform:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contform h1{
+    text-align: center;
+    margin: 5px;
+}
+.contform .btn{
+    background-color: white;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top:2%;  
+    background-color: #00CFD1;
+    font-size: 20px;
+}
+.contform .btn:hover{
+    border:1px solid #00CFD1;
+}
+
+
+/*SIGNIN*/
+.sign{
+    margin:5px 44px;
+    color:#fff;
+    padding:10% 12%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(best-hospital.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.sign .or{
+    text-align: center;
+}
+.sign-form{
+    border: 4px solid gray;
+    padding:80px 140px;
+    background-color:#F7F7F7;
+    color:black;
+}
+.sign-form:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sign-form .onesign{
+    margin:4px;
+}
+.sign-form .btn{
+    background-color: #00CFD1;
+    color: white;
+    margin-top:2%;   
+}
+.sign-form .btn:hover{
+    border:1px solid #00CFD1;
+}
+
+/*PAGE APPOINTMENT*/
+.fullappoin{
+    margin:5px 44px;
+    color:black;
+    padding:12% 15%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Hospital-HITN.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.apoimnt{
+    margin:20px 20px;
+    border: 4px solid gray;
+    padding: 30px;
+    background-color: #F7F7F7;
+}
+.apoimnt:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.apoimnt-head{
+    text-align: center;
+    margin-top: 0px;
+    color:#fff;
+}
+.apoimnt .btn{
+    background-color: white;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top:2%;  
+    background-color: #00CFD1;
+    font-size: 20px;
+}
+.apoimnt .btn:hover{
+    border:1px solid #00CFD1;
+}
+
+/*FAQ*/
+.faq{
+    margin-left: 48px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+.faq img{
+    margin-right: 48px;
+    width:93%;
+}
+.faq h1{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150px;
+}
+.faq h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.ques{
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ques .card-header{
+    background-color: #00CFD1;
+}
+.ques .btn{
+    color:#F7F7F7;
+}
+.ques .btn:hover{
+    text-decoration: none;
+
+}
+/*reviews*/
+.reviews{
+    margin: 50px;
+}
+.reviews span{
+    color:#00CFD1;
+}
+.reviews h1{
+    font-weight: bold;
+}
+.slide{
+    background-color: #ECEEEF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.imgDiv{
+    height:190px;
+    width:150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(review1.jpg);
+   
+}
+
+/*reviews*/
+.revi{
+    margin:5px 44px;
+    color:black;
+    padding:12% 15%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Hospital-HITN.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.revi form{
+    padding:10% 15%;
+    margin:50px;
+    margin-left:50px;
+}
+
+.revi .btn{
+    background-color: white;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top:2%;  
+    background-color: #00CFD1;
+    font-size: 20px;
+}
+.revi .btn:hover{
+    border:1px solid #00CFD1;
+}
+
+/*JUMBO*/
+.jumbo{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/*REGISTER*/
+.centered{
+    margin:20px 50px 40px 50px;
+}

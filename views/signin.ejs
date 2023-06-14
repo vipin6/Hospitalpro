@@ -1,0 +1,34 @@
+<%- include("header") -%>
+
+  <!--Sign-->
+  <div class="sign">
+    <form class="sign-form" action="signin" method="POST">
+      <div class="onesign">
+        <input type="text" class="form-control" placeholder="Email" name="username">
+      </div>
+      <div class="onesign">  
+        <input type="password" class="form-control" placeholder="Enter Password" name="password">
+      </div> 
+      <div class="onesign">  
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>  
+      <div class="onesign">
+        <p>Don't have an account? <a href="User.htlm">Sign Up</a></p>
+      </div>
+        <button type="submit" class="btn btn-block">Login</button>
+        <p class="or">------or------</p>
+        <div>
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Login with Google
+          </a>
+        </div>
+    </form>
+  </div>   
+
+  <%- include("footer") -%>
+
+</body>
+</html>
